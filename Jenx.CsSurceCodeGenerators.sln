@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jenx.CsSourceCodeGeneratorConsumer", "src\Consumer\Jenx.CsSourceCodeGeneratorConsumer.csproj", "{94E3342D-07C3-4466-BFA5-495B0B5C54D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jenx.CsSourceCodeGenerator", "src\Generator\Jenx.CsSourceCodeGenerator.csproj", "{777CF662-3987-4B8D-95E3-B731A2C8FF14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94E3342D-07C3-4466-BFA5-495B0B5C54D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E3342D-07C3-4466-BFA5-495B0B5C54D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E3342D-07C3-4466-BFA5-495B0B5C54D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E3342D-07C3-4466-BFA5-495B0B5C54D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{777CF662-3987-4B8D-95E3-B731A2C8FF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777CF662-3987-4B8D-95E3-B731A2C8FF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777CF662-3987-4B8D-95E3-B731A2C8FF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777CF662-3987-4B8D-95E3-B731A2C8FF14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3586BB89-A981-4CD0-88DB-2DF513FE2B90}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Jenx.CsSourceCodeGeneratorConsumer</AssemblyName>
+    <RootNamespace>Jenx.CsSourceCodeGeneratorConsumer</RootNamespace>
+  </PropertyGroup>  
+  <ItemGroup>
+    <AdditionalFiles Include="Person.txt" />
+  </ItemGroup>
+  <ItemGroup>    
+    <ProjectReference Include="..\Generator\Jenx.CsSourceCodeGenerator.csproj" 
+                      OutputItemType="Analyzer" 
+                      ReferenceOutputAssembly="false" />
+  </ItemGroup>
+</Project>
